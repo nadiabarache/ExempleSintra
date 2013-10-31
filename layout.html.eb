@@ -1,0 +1,28 @@
+#ajouter un to do 
+#modifier un to do list
+# supprimer un to do list
+#lister les to do
+#filtrer les to do
+# metre le fichier dans views
+
+#ceci vient de gabarit "layout"
+
+<html>
+<head>
+<link rel="stylesheet" href="http/:cdn.jsselivr.net/fondation/4.3.2/css/fondation.min.css">
+</head>
+<body>
+
+
+
+ <div class='row'>
+ <div class="large-4 large-offset-2 columns"> 
+  <h1><h1>
+ <div>
+ <div class="large-4 large-offset-2 columns"> <%= yield %><div>
+
+
+
+
+</body>
+

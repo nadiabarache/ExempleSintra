@@ -1,0 +1,29 @@
+installer la base de donner
+ gem install sinatra-active record
+ gem install sqlite 3
+ gem install rake
+
+
+
+ # creer la base de donne
+ 1.rake db:create_migration Name=create_todos
+
+
+ require "sinatra/activerecord/rake"
+ require "./app"
+
+2.
+ dans "1234567890876_create_todos
+
+ def up 
+ 	create_table :todos do |t|
+ 	t.string :text
+ 	t.intger :priority
+ 	end
+ end
+ end
+
+ 3.
+
+
+
